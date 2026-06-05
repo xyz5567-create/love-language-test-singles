@@ -25,15 +25,17 @@ margin:10px 0 20px;
 
 .card{
 background:#fff;
-padding:16px;
+padding:18px;
 border-radius:12px;
 box-shadow:0 2px 8px rgba(0,0,0,.1);
+font-size:1.2rem;
 }
 
 .card h2{
 margin-top:0;
+margin-bottom:15px;
 text-align:center;
-font-size:1.4rem;
+font-size:1.5rem;
 }
 
 .progress{
@@ -54,12 +56,13 @@ transition:.3s;
 .count{
 text-align:center;
 color:#666;
-font-size:.95rem;
+font-size:1rem;
+margin-bottom:10px;
 }
 
 .question{
 text-align:center;
-font-size:1.1rem;
+font-size:1.3rem;
 font-weight:600;
 margin:20px 0;
 }
@@ -68,12 +71,12 @@ button{
 display:block;
 width:100%;
 margin:12px 0;
-padding:14px;
+padding:16px;
 border:none;
 border-radius:10px;
 cursor:pointer;
-font-size:1rem;
-line-height:1.5;
+font-size:1.15rem;
+line-height:1.6;
 text-align:left;
 background:#f7f7f7;
 transition:.2s;
@@ -89,6 +92,7 @@ table{
 width:100%;
 border-collapse:collapse;
 margin-top:15px;
+font-size:1rem;
 }
 
 th{
@@ -99,7 +103,6 @@ th,
 td{
 padding:10px;
 border:1px solid #ddd;
-font-size:.95rem;
 }
 
 td:first-child{
@@ -117,13 +120,13 @@ margin-top:20px;
 
 .winner{
 text-align:center;
-font-size:1.5rem;
+font-size:1.6rem;
 font-weight:bold;
 margin:20px 0;
 }
 
 ol{
-padding-left:20px;
+padding-left:24px;
 }
 
 @media (max-width:600px){
@@ -132,33 +135,30 @@ body{
 padding:8px;
 }
 
-.wrap{
-width:100%;
+.card{
+padding:16px;
+font-size:1.1rem;
 }
 
 h1{
-font-size:1.5rem;
-}
-
-.card{
-padding:14px;
+font-size:1.6rem;
 }
 
 .card h2{
-font-size:1.2rem;
+font-size:1.3rem;
 }
 
 .question{
-font-size:1rem;
+font-size:1.2rem;
 }
 
 button{
-padding:12px;
-font-size:.95rem;
+padding:14px;
+font-size:1.05rem;
 }
 
 table{
-font-size:.85rem;
+font-size:.9rem;
 }
 
 th,
@@ -167,7 +167,7 @@ padding:8px 6px;
 }
 
 .winner{
-font-size:1.25rem;
+font-size:1.4rem;
 }
 
 }
