@@ -131,7 +131,7 @@ function render(){
       </p>
 
       <p class="question">
-      哪一個陳述對你更有意義？
+      那一句你更/較喜歡？
       </p>
 
       <button class="choice"
